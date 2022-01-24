@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.shop {
+    background: url(../images/bg_2.jpg);
+    width: 100%;
+}
+
+.container {
+    margin: 0 auto 0 auto;
+    max-width: 1250px;
+    display: flex;
+    justify-content: center;
+}
+
+.shop__inner {
+    padding: 10px;
+    margin: 10px;
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.shop__items {
+    background-color: rgba(56, 55, 55, 0.864);
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    margin: 10px;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.sneakers__title {
+    font-size: 25px;
+    color: rgb(216, 210, 210);
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.sneakers__img {}
+
+.shop__btn {
+    margin: 0 0 30px 0;
+}
+
+.shop__link {
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    background-color: rgb(41, 40, 40);
+    padding: 5px 40px;
+    color: rgb(216, 210, 210);
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.shop__btn:active {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+    transition: 200ms;
+}
+
+.show__more {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.show__more-btn {
+    padding: 100px 92px;
+    /*background-color: rgba(56, 55, 55, 0.864);*/
+    outline: none;
+    background: url(../images/show_more.png) no-repeat center;
+    /*font-size: 18px;*/
+    color: transparent;
+    /*color: rgb(216, 210, 210);*/
+    border: none;
+    /*border-radius: 20px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;*/
+    justify-content: center;
+    text-align: center;
+}
+
+.show__more-btn:active {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+    transition: 200ms;
+}
+
+.sneakers__price {
+    font-size: 25px;
+    color: rgb(216, 210, 210);
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.img_pos {
+    width: 256px;
+    height: 256px;
+}
+
+@media (max-width:321px) {
+    .show__more {
+        height: 250px;
+    }
+}
+
+@media (max-width:289px) {
+    .shop__inner {
+        max-width: 250px;
+        margin: 0px;
+        padding: 0px;
+    }
+   
+}

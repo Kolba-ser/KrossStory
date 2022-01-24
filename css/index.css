@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.kross {
+    background: url(../images/bg_2.jpg);
+    
+}
+
+.container {
+    margin: 0 auto 0 auto;
+    max-width: 1000px;
+    justify-content: center;
+}
+
+.kross__bg-img {
+    height: 900px;
+    
+}
+
+.kross__pos {
+    display: flex;
+    height: 70%;
+    
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.kross__title {
+    font-size: 45px;
+    font-weight: 700;
+    color: rgb(56, 56, 56);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.kross__dscr {
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(44, 44, 43);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.kross__dscr_color {}
+
+.kross__items {
+    
+    list-style: none;
+}
+
+.kross__item {
+    margin-top: 30px;
+}
+
+.kross__catalog {
+    background-color: rgb(56, 55, 55);
+    padding: 10px 68px;
+
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.kross__instagram {
+    background:  #d6249f;
+    padding: 10px 60px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    color: white;
+    border-radius: 20px;
+}
+
+.kross__whats-up {
+    background-color:#25D366;
+    padding: 10px 60px;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    border-radius: 20px;
+}
+.kross__title-img{
+    padding: 5px;
+    margin-top: 20px;
+}
+.title-img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+.kross__item:active {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+    transition: 200ms;
+  }
